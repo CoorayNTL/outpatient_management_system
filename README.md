@@ -1,7 +1,8 @@
 # outpatatienmanagementsystem
 
+RealHack 4.0 24 hours software solution 
 
-Outpatient Management System
+Topic : Outpatient Management System
 
 Sri Lanka is recognized as a country that offers one of the most privileged health services in
 South Asia. Both publicly and privately managed hospitals are providing excellent inimitable
@@ -21,3 +22,9 @@ and miscommunications between appointments and health record management.
 As a solution, you have to develop an outpatient management system for Sri Lankan public
 healthcare hospitals to overcome the issues described above.
 
+Instruction  
+clone the repository to their local machine using "git clone"
+run yarn install to install all the dependencies listed in package.json
+
+yarn run start or yarn run dev frontend
+yarn run dev backend
