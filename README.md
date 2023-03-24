@@ -28,3 +28,10 @@ run yarn install to install all the dependencies listed in package.json
 
 yarn run start or yarn run dev frontend
 yarn run dev backend
+
+Technologies :
+MongoDB
+ExpressJS
+ReactJS
+NodeJS
+SweetAlert2
