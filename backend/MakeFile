@@ -1,0 +1,13 @@
+# Build Docker image for backend
+build:
+    docker build -t my-registry/my-app-backend .
+
+# Push Docker image to registry
+push:
+    docker push my-registry/my-app-backend
+
+# Deploy backend to Kubernetes cluster
+deploy:
+    kubectl apply -f kubernetes/backend/deployment.yaml
+    kubectl apply -f kubernetes/backend/service.yaml
+    kubectl apply -f kubernetes/backend/configs/backend-config.yaml

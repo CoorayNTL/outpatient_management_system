@@ -1,0 +1,31 @@
+:root {
+  --brown: #f2efee;
+}
+
+.bg-contact-us {
+  background-color: #f2efee !important;
+}
+.contact-us-inputs {
+  width: 400px !important;
+  font-family: "Poppins";
+  height: 75px;
+}
+.contact-us-labels {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+.textarea-input textarea {
+  width: 400px !important;
+  resize: none;
+}
+.contact-us-btn {
+  background-color: #f2efee !important;
+  font-family: "Poppins";
+  font-weight: 700 !important;
+}
+.contact-us-title {
+  font-weight: 700 !important;
+  font-family: "Poppins";
+  margin-top: 2%;
+}

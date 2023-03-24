@@ -1,0 +1,49 @@
+nav {
+  border-radius: 8px;
+  min-width: 0;
+  background-color: #F5F3F0;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#iprofile {
+  width: 50px;
+}
+
+#tcontainer {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#tcontainer .topbar-hover:hover {
+  color: #fff;
+}
+
+.topbar-font-color {
+  font-size: 13px !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#tcontainer .search-box {
+  position: relative;
+}
+
+#tcontainer .search-box button {
+  position: absolute;
+  right: 10px;
+  border: transparent;
+}
+
+#tcontainer .search-box input:focus,
+#tcontainer .search-box input {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #6e768e;
+  font-size: 13px;
+  width: 250px;
+}
+
+.container-topbar {
+  margin-left: 20px;
+  margin-right: 20px;
+}

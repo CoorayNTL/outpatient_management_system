@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.topbar-font-color {
+  font-size: 13px !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.primary-background {
+  background-color: #348cd4;
+}
+
+.primary-btn {
+  background-color: #348cd4;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #17d193;
+  color: #fff !important;
+  border-color: transparent;
+}
+
+.primary-btn:hover {
+  background-color: #306b9b;
+  color: #fff;
+}
+
+.font-color {
+  color: #6e768e;
+  font-size: 13px;
+}
+
+.sfont-color {
+  color: #6e768e;
+}
+
+.sfont-size {
+  font-size: 13px;
+}
+
+.font-active {
+  color: #348cd4;
+}
+.highlightOption {
+  background: #17d193 !important;
+}
+
+.optionContainer li:hover {
+  background: #17d193 !important;
+}
+
+.page-link {
+  color: #17d193;
+}
+
+.active > .page-link,
+.page-link.active {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: #17d193;
+  border-color: #17d193;
+}
+
+#wrapper {
+  position: absolute;
+  margin-top: 10px;
+  top: 0px;
+  bottom: 0;
+}
+
+#content-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  overflow-y: auto;
+}
+
+#content-wrapper .row {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.204);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(136, 136, 136, 0.492);
+}
+
+:root {
+  --toastify-color-progress-light: linear-gradient(
+    to right,
+    #4cd964,
+    #5ac8fa,
+    #007aff,
+    #34aadc,
+    #5856d6,
+    #ff2d55
+  );
+}
+
+/* bootstrap override class */
+.btn-primary:hover {
+  background-color: #0e9e6e;
+  color: #fff !important;
+  border-color: transparent;
+}
+
+.btn-primary:focus {
+  background-color: #0e9e6e;
+  color: #fff !important;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem rgb(23 209 147 / 28%);
+}
+
+.form-select:focus {
+  border-color: #17d193;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(23 209 147 / 28%);
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #17d193;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(23 209 147 / 28%);
+}

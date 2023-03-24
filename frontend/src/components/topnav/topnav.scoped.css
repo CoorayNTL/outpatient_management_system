@@ -1,0 +1,12 @@
+.nav-categories{
+    background-color: #e7e7ff;
+    position: absolute;
+    top: 100%;
+    left: 36%;
+
+    width: 50%;
+
+    boxShadow: '0 2px 4px rgba(0,0,0,.15)';
+    zIndex: 1;
+    padding: 1rem;
+}
