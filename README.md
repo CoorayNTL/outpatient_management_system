@@ -22,16 +22,17 @@ and miscommunications between appointments and health record management.
 As a solution, you have to develop an outpatient management system for Sri Lankan public
 healthcare hospitals to overcome the issues described above.
 
-Instruction  
-clone the repository to their local machine using "git clone"
-run yarn install to install all the dependencies listed in package.json
+In the project directory, you can run:
 
-yarn run start or yarn run dev frontend
-yarn run dev backend
+yarn run dev both backend & frontend
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
 
 Technologies :
 MongoDB
 ExpressJS
 ReactJS
 NodeJS
-SweetAlert2
+
